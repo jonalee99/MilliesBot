@@ -5,6 +5,8 @@ sites into thinking the bot is already signed in.
 I am using python 3.8. Create a virtual environment using python 3.8, then run pip install -r requirements.txt to install
 all necessary requirements.
 
+Also, you need to install geckodriver from "https://github.com/mozilla/geckodriver/releases". Add it to the path variable too
+
 Once the environment is installed and activated, you must make 3 edits to the main.py itself.
 1) After creating a milliespottery.com account, copy the value of the "_secure_session_id" into the MILLIES_SECURE_SESSION_ID
 variable.
